@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;700&display=swap');
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 100px;
+}
+
+
+#title h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Navigation */
+.container-fluid .navbar {
+  padding: 0 0 4.5rem;
+}
+
+nav .navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+nav .nav-item {
+  padding: 0 18px;
+}
+
+nav .nav-link {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 1.2rem;
+
+}
+
+
+/* Title */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  position: absolute;
+  transform: rotate(25deg);
+  width: 60%; /* to resize image with height in auto*/
+  right: 30%;
+}
+
+.download-button span{
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+
+/* Features */
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features .row i {
+  color: #e36f62;
+  margin-bottom: 10px;
+}
+
+#features .row i:hover {
+  color: #ff4c68;
+  transition: .3s;
+}
+
+#features .row {
+  padding: 150px;
+}
+
+
+/* Testimonials */
+.carousel-container {
+  background-color: #ff7a6b;
+  text-align: center;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carousel-inner h2 {
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 50px 100px;
+
+}
+
+.carousel-item img {
+  position: relative;
+  height: 10%;
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+em {
+  color: #fff;
+}
+
+
+/* Press*/
+#press {
+  background-color: #ff7a6b;
+  text-align: center;
+}
+
+#press img {
+  height: auto;
+  width: 20%;
+  padding: 50px 0 100px;
+}
+
+
+/* Pricing*/
+#pricing {
+  padding: 100px;
+}
+
+#pricing .card-body {
+  text-decoration: none;
+}
+
+#pricing .pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-btn {
+  margin-top: 40px;
+}
+
+/* CTA*/
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding:  150px;
+}
+
+#cta .col h3 {
+  color: #fff;
+  font-family: 'Montserrat';
+  margin-bottom: 50px;
+}
+
+#cta .col button {
+  margin-right: 25px;
+}
+
+#cta .col button i span{
+  letter-spacing: 2px;
+  font-size: 1rem;
+  padding-left: 10px;
+  font-family: 'Ubuntu';
+}
+
+
+/* footer*/
+#footer {
+  margin: 100px;
+  text-align: center;
+  color: #000;
+}
+
+#footer a {
+  margin-right: 20px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: #000;
+}
+
+#footer p {
+  font-family: 'Montserrat';
+}
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+.title-img {
+  position: static;
+  transform: rotate(0deg);
+}
+}
